@@ -1,9 +1,6 @@
 package com.example.firebaserdb;
 
-import android.widget.Button;
-import android.widget.EditText;
-
-public class employee {
+public class Employee {
 
     private int empid;
 
@@ -13,8 +10,8 @@ public class employee {
 
     private String department;
 
-    private String phone;
-    public employee() {
+    private Long phone;
+    public Employee() {
 
     }
 
@@ -50,11 +47,11 @@ public class employee {
         this.department = department;
     }
 
-    public String getPhone() {
+    public Long getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(Long phone) {
         this.phone = phone;
     }
 
